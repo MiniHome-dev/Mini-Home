@@ -1651,7 +1651,7 @@ Quedo pendiente de tu confirmación. ¡Gracias!`;
     const fecha = ahora.toLocaleDateString('es-PE', { day:'2-digit', month:'2-digit', year:'numeric' });
 
     try {
-      await fetch('https://hook.eu1.make.com/xkhvx06kx91im845ugwyruo2xxfh', {
+      await fetch('https://hook.eu1.make.com/xkhvx06kx91im845ugwyruo2xxfhijgp', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ nombre, correo: email, whatsapp: tel, fecha })
